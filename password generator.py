@@ -2,11 +2,11 @@
 #Author: Mitesh Madaan
 #Description: This project generates strongest possible password using letters and digits from name, id no. and dob of the user
 #The generated password is sent as mail to user
-
+#                                         *****************************START******************************
 #imporitng necessary module for generating passwords, checking password strength, sending mail
 import secrets
-import pswdstrength
-import sendMAIL
+import pswdstrength_github
+import sendMAIL_github
 import string
 #Getting user information
 name = str(input("please enter your complete name:\t"))#input prompt for user's name
@@ -35,11 +35,13 @@ strength = 0
 #loop for searching for strongest password.
 for i in range(10000):
     pwd = ''.join(secrets.choice(data+string.punctuation) for k in range(length)) # Generation of password and level 3 randomization
-    if pswdstrength.strength_calculator(pwd) > strength:#if strength of new password is greater than previous one...
+    if pwd == "":
+        continue
+    if pswdstrength_github.strength_calculator(pwd) > strength:#if strength of new password is greater than previous one...
             password = pwd#replace previous one with new one
-            strength = pswdstrength.strength(pwd)#update new strength
+            strength = pswdstrength_github.strength_calculator(pwd)#update new strength
 #sending password and email to mail generator to send mail
-sendMAIL.send_mail(password,email_id)
+sendMAIL_github.send_mail(password,email_id)
 #thankyou note for user
 print("Your Generated password has been sent to your email.\nThank You for being a part of my project\n")
-#END
+#                                         *****************************END******************************
