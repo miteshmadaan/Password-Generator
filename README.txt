@@ -1,7 +1,7 @@
-Project - Password Generator
+#Project - Password Generator
 Author - Mitesh Madaan
 Contact:-
-    Email Id: miteshmadaan.work@gmail.com
+    Email Id: miteshmadaan1@gmail.com
     Github profile: https://github.com/miteshmadaan
     LinkedIn profile: https://www.linkedin.com/in/mitesh-madaan-35603217a/
     Facebook profile: https://www.facebook.com/mitesh.madaan
