@@ -7,8 +7,8 @@ def send_mail(password,email_id):#getting input for password and receiver's emai
     message = "\n\nHello Buddy. I am <sender's name>.\nAs a part of my project Password Generator which uses letters and digits from" \
                    " your name, id no. and date of birth and generates a strongest possible password.\n" \
                    "your generated password is '" + password + "'\n" \
-                                                               "I hope you like it.\n\n\tThank You\n\n\n"#message to be sent
-    s.sendmail("miteshmadaan1@gmail.com", email_id, message)#sending the mail
+                   "I hope you like it.\n\nThank You\n\n"#message to be sent
+    s.sendmail("sender's email ID", email_id, message)#sending the mail
     s.quit()#logging out of mail id
 
 
