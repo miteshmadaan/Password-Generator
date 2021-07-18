@@ -1,10 +1,7 @@
 #Project - Password Generator
 Author - Mitesh Madaan
 Contact:-
-    Email Id: miteshmadaan1@gmail.com
-    Github profile: https://github.com/miteshmadaan
-    LinkedIn profile: https://www.linkedin.com/in/mitesh-madaan-35603217a/
-    Facebook profile: https://www.facebook.com/mitesh.madaan
+    Email Id: work.miteshmadaan@gmail.com
 Description- This program asks for user's name, id no and date of birth and generates a strongest password using letters and digits from input information. The generated password is mailed to user.
 Disclaimer:
     1. Please read How to use clearly before running the program in your console/interpreter.
